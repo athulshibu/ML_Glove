@@ -1,0 +1,26 @@
+1. Get Accelerometer values for all directions
+
+2. Store them into a file as [x_value,y_value,z_value,command]
+
+3. Combine the 4 files of 4 commands (up, down, left, right). This will be the Training values. 
+   Don't forget to mix up their order while combining them.
+
+4. Do the same but for a shorter duration to make the Testing Values. (optional)
+
+5. Make a program to move the mouse by command. Use Pyautogui.
+
+6. Create a Neural Net of 3-10-4 format.
+
+7. Train using Training Values.
+
+8. Test using Testing Values.
+
+9. Mess around with the Neural net until an accuracy of 90% is reached.
+
+10. Test on the actual Microbit.
+
+11. Figure out the LDR and buttons/IRs and stuff
+
+12. Test them all out.
+
+13. Attach them all to a glove and start taking pictures.
